@@ -18,17 +18,24 @@ Analyze distribution and interpret behavior by score range
 
 scoreModelML/
 ├── data/
+
 │   └── user-wallet-transactions.json        # Raw Aave tx data (JSON)
+
 │
+
 ├── src/
 │   ├── preprocess.py                        # Load + clean raw JSON
 │   ├── feature_engineering.py               # Build wallet-level features
 │   ├── score_model.py                       # Scoring formula
 │   └── score_wallets.py                     # End-to-end pipeline script
+
 │
+
 ├── analysis/
 │   └── score_analysis.py                    # Score bucket breakdown & plots
+
 │
+
 ├── wallet_features.csv                      # Features per wallet (intermediate)
 ├── wallet_scores.csv                        # Final scores (0–1000)
 ├── score_distribution.png                   # Score histogram
@@ -145,4 +152,5 @@ Score
 ## 👨‍💼 Author
 
 Aman Singh
+
 AI/ML Engineer
