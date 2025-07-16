@@ -85,13 +85,14 @@ This project implements a credit scoring system for wallets interacting with the
 
 ---
 
-## 📝 Sample Scores
+## 📝 Sample Scores & Insights
 
-| Wallet Address      | Score |
-|---------------------|-------|
-| `0x0000...d4b6`     | 282   |
-| `0x0000...3852c`    | 504   |
-| `0x0000...7bf1ee`   | 708   |
+| Wallet Address      | Score | Percentile | Key Behavioral Highlights                      |
+|---------------------|-------|------------|------------------------------------------------|
+| `0x0000...d4b6`     | 282   | 12th       | • Low repay ratio (40%)<br>• High liquidation risk history |
+| `0x0000...3852c`    | 504   | 50th       | • Balanced borrow/deposit ratio (0.95)<br>• Moderate token diversity (3 assets) |
+| `0x0000...7bf1ee`   | 708   | 85th       | • Strong repay ratio (98%)<br>• Active across 45 days with consistent tx frequency |
+
 
 > ➡️ See: `wallet_scores.csv`
 
