@@ -1,0 +1,34 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore data files
+*.json
+*.zip
+*.gz
+*.tar
+data/
+
+# Ignore OS & editor metadata
+.DS_Store
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and cache
+*.log
+.cache/
+
+# Ignore temporary files
+*.bak
+*.tmp
+
+# Ignore large generated files (optional)
+wallet_features.csv
+wallet_scores.csv
+score_distribution.png
